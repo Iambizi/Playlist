@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/scss/styles.module.scss';
-import TiltCover from '../src/Tilt.jsx';
+import TiltCover from '../src/tilt.jsx';
 import Player from  '../src/player.jsx'
 
 export default function Home() {
