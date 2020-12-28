@@ -1,6 +1,6 @@
-@import "global.scss";
+@import "./global.scss";
 .container{
-    background-color: #f0f0f0;
+    background-color: $KS-grey;
     width: 100vw;
     height: 100vh;
     .main {
