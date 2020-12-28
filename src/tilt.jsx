@@ -1,5 +1,5 @@
 import Tilt from 'react-parallax-tilt';
-import TiltStyle from '../styles/scss/tilt.module.scss';
+import TiltStyle from '../styles/scss/_tilt.module.scss';
 
 export default function TiltCover(){
     return(
