@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/scss/_styles.module.scss';
+import styles from '../styles/scss/stylez.module.scss';
 import TiltCover from '../src/tilt.jsx';
 import Player from  '../src/player.jsx'
 
