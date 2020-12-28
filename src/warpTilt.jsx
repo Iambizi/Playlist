@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { findDOMNode } from "react-dom";
-import styles from '../styles/scss/styles.module.scss';
 
 class WarpTitlt extends Component {
   constructor(props) {
@@ -176,7 +175,7 @@ class WarpTitlt extends Component {
     };
     return (
       <div
-        className={`${styles.warpDiv} warp-div`}
+        className={"warp-div"}
         style={{
           display: "flex",
           justifyContent: "center",
