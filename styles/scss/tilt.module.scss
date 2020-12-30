@@ -1,0 +1,47 @@
+@import "variables.scss";
+
+.tiltStyles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  @media screen and (max-width: map_get($screen-sizes, s)) {
+    width: 200px;
+    height: 300px;
+    margin-top: 120px;
+  }
+  @media screen and (max-width: map_get($screen-sizes, xl)) {
+    margin-top: 120px;
+  }
+  background-color: $SPB-grey;
+  color: white;
+  border: 5px solid black;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  margin-top: 50px;
+
+  .innerTiltStyles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    @media screen and (max-width: map_get($screen-sizes, s)) {
+        font-size: 24px;
+        border-top: 4px solid;
+      }
+      
+    font-style: italic;
+    color: white;
+    transform: translateZ(60px);
+    font-family: Helvetica;
+    color: #060606;
+    font-weight: 600;
+    z-index: 10000;
+    position: absolute;
+    text-transform: uppercase;
+    border-top: 6px solid; 
+  }
+}

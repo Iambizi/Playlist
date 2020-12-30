@@ -1,0 +1,21 @@
+@import "variables.scss";
+.player{
+    margin-top: 15px;
+    .controls{
+    }
+    .tracks{
+        font-family: Helvetica;
+        list-style: none;
+        margin-top: 30px; 
+        padding: 0;
+        .track{
+            // color: $orange;
+            font-weight: normal;
+            margin-top: 5px;
+            span{
+                // color: #FFF;
+                font-weight: bold;
+            }
+        }    
+    }
+}
