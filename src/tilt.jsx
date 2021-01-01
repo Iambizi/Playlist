@@ -7,6 +7,7 @@ export default function TiltCover(){
               <Tilt
                 className={`${TiltStyle.tiltStyles}`}
                 perspective={500}
+                trackOnWindow={true}
                 scale={1.02}
                 glareEnable={true} 
                 glareMaxOpacity={0.9} 
