@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 
 .tiltStyles {
   display: flex;
@@ -41,6 +42,16 @@
     z-index: 10000;
     position: absolute;
     text-transform: uppercase;
-    border-top: 6px solid; 
+    border-top: 6px solid;
+    .Metal{
+      margin-top: 5px;
+    }
+
+    
+    .logo{
+      display: block;
+      width: 300px;
+      height: 110px;
+    }
   }
 }
